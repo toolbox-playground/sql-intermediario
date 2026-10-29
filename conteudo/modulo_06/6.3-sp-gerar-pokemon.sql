@@ -1,5 +1,7 @@
 DELIMITER //
 
+DROP PROCEDURE IF EXISTS `sp_gerar_log_safari_aleatorio`//
+
 CREATE PROCEDURE `sp_gerar_log_safari_aleatorio`()
 BEGIN
     DECLARE i INT DEFAULT 1;
@@ -39,3 +41,6 @@ BEGIN
 END //
 
 DELIMITER ;
+
+-- Para testar a procedure após criar:
+-- CALL sp_gerar_log_safari_aleatorio();
