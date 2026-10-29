@@ -24,4 +24,4 @@ END //
 
 DELIMITER ;
 
-SELECT fn_fraco_contra_grass('Squirtle');
+-- SELECT fn_fraco_contra_grass('Squirtle');
